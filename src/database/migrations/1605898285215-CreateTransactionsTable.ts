@@ -28,7 +28,7 @@ export default class CreateTransactionsTable1605898285215
           },
           {
             name: 'category_id',
-            type: 'varchar',
+            type: 'uuid',
           },
           {
             name: 'created_at',
