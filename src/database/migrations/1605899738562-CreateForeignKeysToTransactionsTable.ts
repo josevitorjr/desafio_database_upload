@@ -10,7 +10,7 @@ export default class CreateForeignKeysToTransactionsTable1605899738562
         columnNames: ['category_id'],
         referencedColumnNames: ['id'],
         referencedTableName: 'categories',
-        onDelete: 'RESTRICT',
+        onDelete: 'SET NULL',
         onUpdate: 'CASCADE',
       }),
     );
